@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>41box | Premium Used Cars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="./index.html" class="logo">41<span>BOX</span></a>
+                <div class="nav-links">
+                    <a href="./index.html" class="active">Home</a>
+                    <a href="./inventory.html">Inventory</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <a href="./inventory.html" class="btn btn-primary">View Cars</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Drive Your Dream.<br>Premium Chinese Imports.</h1>
+                    <p>Specializing in high-quality used Volkswagen, Honda, Toyota, and Mazda vehicles directly from
+                        China.</p>
+                    <div class="hero-cta">
+                        <a href="./inventory.html" class="btn btn-primary">Browse Inventory</a>
+                        <a href="#contact" class="btn btn-outline" style="margin-left: 1rem;">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Placeholder for a nice car image -->
+            <img src="https://i.111666.best/image/CsfZK6sh6JRejn42peUUw0.png" alt="Premium Car" class="hero-image">
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <div class="section-subtitle">Selected For You</div>
+                        <h2 class="section-title">Featured Vehicles</h2>
+                    </div>
+                    <a href="./inventory.html" class="btn btn-outline">View All</a>
+                </div>
+
+                <div class="car-grid" id="featured-cars">
+                    <!-- Cars will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" style="padding: 6rem 0;">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <div class="section-subtitle">About Us</div>
+                        <h2 class="section-title">Why Choose 41box?</h2>
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                    <div>
+                        <h3>Quality Assured</h3>
+                        <p style="color: var(--text-secondary); margin-top: 1rem;">Every vehicle undergoes a rigorous
+                            150-point inspection before listing. We ensure only the best condition cars make it to our
+                            inventory.</p>
+                    </div>
+                    <div>
+                        <h3>Global Shipping</h3>
+                        <p style="color: var(--text-secondary); margin-top: 1rem;">We handle all the logistics of
+                            exporting your dream car from China to your doorstep, ensuring a hassle-free experience.</p>
+                    </div>
+                    <div>
+                        <h3>Transparent Pricing</h3>
+                        <p style="color: var(--text-secondary); margin-top: 1rem;">No hidden fees. Our pricing is
+                            competitive and transparent, giving you the best value for your money.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <a href="#" class="logo">41<span>BOX</span></a>
+                    <p style="color: var(--text-secondary); margin-top: 1rem;">Your trusted partner for premium used
+                        cars from China.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./inventory.html">Inventory</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">kaison@car.41box.com</a></li>
+                        <li><a href="#">Phone: +852 62144207</a></li>
+                        <li><a href="#">WhatsApp: +1 (503)809-6804</a></li>
+                        <li>Wuhan, China</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color); text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
+                &copy; 2025 41box. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
