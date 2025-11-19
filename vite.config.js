@@ -2,10 +2,8 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  // Base URL for GitHub Pages (assuming repo name is 'usedcar_web' or similar, 
-  // but for now we'll use './' to be relative-path safe or '/' if at root domain.
-  // Usually for GH pages it's /repo-name/. We will assume root for now or let user configure.)
-  base: './', 
+  // Base URL for GitHub Pages
+  base: '/41box.com/', 
   build: {
     rollupOptions: {
       input: {
