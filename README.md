@@ -16,6 +16,7 @@ A premium used car website for "41box", specializing in Chinese imports (VW, Hon
 - `style.css`: Global styles and variables.
 - `index.html`: Landing page.
 - `inventory.html`: Inventory listing page.
+- `contact.html`: Contact page.
 
 ## Development
 
